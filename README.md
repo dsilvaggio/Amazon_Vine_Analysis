@@ -21,3 +21,4 @@ The above Dataframes were then loaded into pgAdmin and a query was ran to verify
 3. Using the above information, I was able to determine that about 38% of the Vine reviews were 5 star reviews and about 54% of the non-Vine reviews were 5 star reviews.  
 
 ## Summary
+Based on the above findings, there is a positivity bias for reviews in the Vine program. Only 38% of Vine reviews were 5 star reviews versus the 54% of non-Vine reviews. One additional analysis that I could perform with the Vine dataset to support this statement would be to calculate the measures of central tendancy (mean, median, mode) as well as the meansures of spread (standard deviation, variance, IOR). By comparing the differences in these statistical measures, we would be able to further verify any positivity bias for reviews in the Vine program.  
