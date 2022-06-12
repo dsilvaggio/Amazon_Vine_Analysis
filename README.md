@@ -3,7 +3,11 @@
 An analysis of Amazon reviews written by members of the paid Amazon Vine program was performed using PySpark, SQL, and Amazon Web Services. The Amazon Vine Program allows manufacturers and publishers to recieve reviews for their products. Pet Product data was extracted, transformed, connected to an AWS RDS instance, and then loaded into pgAdmin. PySpark was the used to assess any bias towards favorable reviews from Vine members in the pet product data set.   
 ## Results
 ### ETL Process
-An Amazon RDS was first created using AWS. A pgAdmin database was then created within the Amazon RDS server. Four tables were created within pgAdmin (customers_table, products_table, review_id_table, and vine_table) that match the Dataframes that are to be created using PySpark. The pet product data was then extracted and created into a new Dataframe which can be seen below.
+An Amazon RDS was first created using AWS. A pgAdmin database was then created within the Amazon RDS server. 
+
+![This is an image](https://github.com/dsilvaggio/Amazon_Vine_Analysis/blob/main/Resources/Screen%20Shot%202022-06-09%20at%209.48.09%20AM.png)
+
+Four tables were created within pgAdmin (customers_table, products_table, review_id_table, and vine_table) that match the Dataframes that are to be created using PySpark. The pet product data was then extracted and created into a new Dataframe which can be seen below.
 
 ![this is an image](https://github.com/dsilvaggio/Amazon_Vine_Analysis/blob/main/Resources/Screen%20Shot%202022-06-11%20at%209.26.17%20PM.png)
 #### Customers_table
