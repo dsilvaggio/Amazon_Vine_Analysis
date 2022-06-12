@@ -16,5 +16,8 @@ Lastly, the select() function was used again to retrieve the columns from our or
 The above Dataframes were then loaded into pgAdmin and a query was ran to verify that the tables had been populated. 
 
 ### Determine Bias of Vine Reviews
+1. Using PySpark, I was able to determint that there were 170 Vine reviews and 37,840 non-Vine reviews in the pet products dataset. 
+2. 65 of the Vine reviews were 5 star reviews and 20,612 of the non-Vine reviews were 5 star reviews.
+3. Using the above information, I was able to determine that about 38% of the Vine reviews were 5 star reviews and about 54% of the non-Vine reviews were 5 star reviews.  
 
 ## Summary
