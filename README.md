@@ -23,7 +23,8 @@ Lastly, the select() function was used again to retrieve the columns from our or
 
 ![This is an image](https://github.com/dsilvaggio/Amazon_Vine_Analysis/blob/main/Resources/Screen%20Shot%202022-06-11%20at%209.29.47%20PM.png)
 
-The above Dataframes were then loaded into pgAdmin and a query was ran to verify that the tables had been populated. 
+#### Load into pgAdmin
+The above Dataframes were then loaded into pgAdmin and a query was ran to verify that the tables had been populated.
 
 ### Determine Bias of Vine Reviews
 1. Using PySpark, I was able to determint that there were 170 Vine reviews and 37,840 non-Vine reviews in the pet products dataset. 
