@@ -16,6 +16,8 @@ The products_table dataframe was created by selecting the product_id and product
 ![This is an image](
 #### Review_id_table
 The select() function was used on our initial Dataframe to select the review_id, customer_id, product_id, product_parent, and reivew_data columns from our initial Dataframe. These columns matched the columns that were created in the review_id_table within pgAdmin. The review_data column was also converted to a date object using the to_date() function within our select() function.
+
+![This is an image](https://github.com/dsilvaggio/Amazon_Vine_Analysis/blob/main/Resources/Screen%20Shot%202022-06-11%20at%209.29.37%20PM.png)
 #### Vine_table
 Lastly, the select() function was used again to retrieve the columns from our original Datframe that matched the columns created for our vine_table within pgAdmin.
 
