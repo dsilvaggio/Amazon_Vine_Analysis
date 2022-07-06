@@ -6,6 +6,7 @@ An analysis of Amazon reviews written by members of the paid Amazon Vine program
 - Apache Spark - pySpark
 - Postgres
 - Python
+- AWS
 
 ## Results
 ### ETL Process
